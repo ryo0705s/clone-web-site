@@ -1,0 +1,90 @@
+
+/* 全体設定 */
+@charset "utf-8";
+.cf::after {
+    content: "";
+    display: block;
+    clear: both;
+ }
+body {
+  margin: 0;
+  font-family: "Arial", "メイリオ";
+}
+li {
+  list-style: none;
+}
+/* ヘッダー */
+header {
+  width: 100%;
+  height: 60px;
+  background-color: red;
+}
+#header-left {
+  float: left;
+  
+}
+#header-left h1 {
+  font-size: 2em;
+}
+#header-left a {
+  text-decoration: none;
+}
+#header-right {
+  float: right;
+}
+#header-right li{
+  float: left;
+}
+/* タイトル */
+#title{
+  width: 100%;
+  height: 665px;
+  background-color: blue;
+}
+/* イントロダクション */
+#introduction {
+  width: 100%;
+  height: 477px;
+  background-color: pink;
+}
+/* スキル */
+#skill {
+  width: 100%;
+  height: 712px;
+  background-color: skyblue;
+}
+/* プロダクション */
+#production {
+  width: 100%;
+  height: 858px;
+  background-color: green;
+}
+/* キャリア */
+#career {
+  width: 100%;
+  height: 1179px;
+  background-color: yellow;
+}
+/* コンタクト */
+#contact {
+  width: 100%;
+  height: 985px;
+  background-color: gray;
+}
+/* フッター */
+footer {
+  width: 100%;
+  height: 152px;
+  background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
